@@ -711,9 +711,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 66
   orthographic: 1
-  orthographic size: 7.13
+  orthographic size: 11.836204
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -737,7 +737,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.35, y: 0.31, z: -10}
+  m_LocalPosition: {x: 0, y: 0.7, z: -12.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -911,7 +911,7 @@ PrefabInstance:
     - target: {fileID: 7219807256449025829, guid: 6b67067cb80f1004c878b745956b146f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.23
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 7219807256449025829, guid: 6b67067cb80f1004c878b745956b146f,
         type: 3}
@@ -1145,7 +1145,7 @@ PrefabInstance:
     - target: {fileID: 3058352070087308541, guid: 28607bafe4e91c44f804d0be16beb131,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.86
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 3058352070087308541, guid: 28607bafe4e91c44f804d0be16beb131,
         type: 3}
@@ -1395,7 +1395,7 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.21603394
+        time: 0
         value: 1
         inSlope: 0
         outSlope: 0
@@ -1405,7 +1405,7 @@ TrailRenderer:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 0.222229
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1628,12 +1628,12 @@ PrefabInstance:
     - target: {fileID: 1874379092133810562, guid: 2709cfd5c4ef7074e84299a7de072fb7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.42
+      value: 20.05
       objectReference: {fileID: 0}
     - target: {fileID: 1874379092133810562, guid: 2709cfd5c4ef7074e84299a7de072fb7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.76
+      value: -0.79
       objectReference: {fileID: 0}
     - target: {fileID: 1874379092133810562, guid: 2709cfd5c4ef7074e84299a7de072fb7,
         type: 3}
@@ -1688,7 +1688,7 @@ PrefabInstance:
     - target: {fileID: 1874379092133810562, guid: 2709cfd5c4ef7074e84299a7de072fb7,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 15.706334
+      value: 31.072649
       objectReference: {fileID: 0}
     - target: {fileID: 1874379092133810563, guid: 2709cfd5c4ef7074e84299a7de072fb7,
         type: 3}
@@ -2152,7 +2152,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370640804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: -8.15, z: 0}
+  m_LocalPosition: {x: 1, y: -11.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7368,12 +7368,12 @@ PrefabInstance:
     - target: {fileID: 1874379092133810562, guid: 2709cfd5c4ef7074e84299a7de072fb7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.74
+      value: -23.22
       objectReference: {fileID: 0}
     - target: {fileID: 1874379092133810562, guid: 2709cfd5c4ef7074e84299a7de072fb7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -0.68
       objectReference: {fileID: 0}
     - target: {fileID: 1874379092133810562, guid: 2709cfd5c4ef7074e84299a7de072fb7,
         type: 3}
@@ -7428,7 +7428,7 @@ PrefabInstance:
     - target: {fileID: 1874379092133810562, guid: 2709cfd5c4ef7074e84299a7de072fb7,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 14.495593
+      value: 30.98752
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2709cfd5c4ef7074e84299a7de072fb7, type: 3}
@@ -7452,7 +7452,7 @@ PrefabInstance:
     - target: {fileID: 3058352070087308541, guid: 28607bafe4e91c44f804d0be16beb131,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.76
+      value: -12
       objectReference: {fileID: 0}
     - target: {fileID: 3058352070087308541, guid: 28607bafe4e91c44f804d0be16beb131,
         type: 3}
@@ -7521,7 +7521,7 @@ PrefabInstance:
     - target: {fileID: 7219807256449025829, guid: 6b67067cb80f1004c878b745956b146f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.51
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 7219807256449025829, guid: 6b67067cb80f1004c878b745956b146f,
         type: 3}
