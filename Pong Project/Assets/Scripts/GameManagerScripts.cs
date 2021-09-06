@@ -83,7 +83,7 @@ public class GameManagerScripts : MonoBehaviour
 
         Player2Text.text = player2score.ToString();
         Player1Text.text = player1score.ToString();
-        Invoke("resetPosition", 2);
+        resetPosition();
     }
 
     public void toogleTrajectory()
