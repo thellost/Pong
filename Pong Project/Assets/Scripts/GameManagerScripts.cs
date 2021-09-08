@@ -44,7 +44,7 @@ public class GameManagerScripts : MonoBehaviour
         }
         else
         {
-            Invoke("resetPosition", 1);
+            resetPosition();
         }
     }
 
@@ -61,7 +61,7 @@ public class GameManagerScripts : MonoBehaviour
         }
         else
         {
-            Invoke("resetPosition", 1);
+            resetPosition();
         }
     }
 
