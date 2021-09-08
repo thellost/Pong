@@ -36,6 +36,7 @@ public class PlayerControll : MonoBehaviour
 
     public void Reset()
     {
+        transform.position = start_position;
         body.velocity = Vector2.zero;
     }
 
