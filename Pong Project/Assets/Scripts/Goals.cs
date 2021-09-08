@@ -12,18 +12,15 @@ public class Goals : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Ball")
+        if (!isPlayer1Goal)
         {
-            if (!isPlayer1Goal)
-            {
-                Debug.Log("Player 1 Menang");
-                gameManager.GetComponent<GameManagerScripts>().player1Menang();
-            }
-            else
-            {
-                Debug.Log("Player 2 Menang");
-                gameManager.GetComponent<GameManagerScripts>().player2Menang();
-            }
+            Debug.Log("Player 1 Menang");
+            gameManager.GetComponent<GameManagerScripts>().player1Menang();
+        }
+        else
+        {
+            Debug.Log("Player 2 Menang");
+            gameManager.GetComponent<GameManagerScripts>().player2Menang();
         }
     }
 }
